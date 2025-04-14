@@ -1,0 +1,51 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.a {
+    font-weight: bold;
+    font-size: 18px;
+    width: 280px;
+    line-height: 24px;
+}
+
+.b {
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-top: 5px;
+}
+
+.c {
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-top: 20px;
+}
+
+.d {
+    font-size: 14px;
+    color: rgb(96,96,96);
+    width: 280px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.e {
+    background-color: rgb(227, 65, 64);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.f {
+    cursor: pointer;
+}
+
+.f:hover {
+    text-decoration: underline;
+}

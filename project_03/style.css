@@ -1,0 +1,101 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #2a73cc;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-align: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    background-color: #2a73cc;
+    border-radius: 5px;
+}
+
+/* Section styles */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: fit-content;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Table styling for projects */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid#ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #2a73cc;
+    color: white;
+}
+
+/* Form Styles */
+form input, form textarea {
+    width: 91%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid#ddd;
+    border-radius: 4px;
+} 
+
+form button {
+    background-color: #2a73cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;   
+    border-radius: 5px; 
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+/*Footer*/
+footer {
+    text-align: left;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    color: #2a73cc;
+}

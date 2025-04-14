@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio Website</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<!--Navigation Bar-->
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+<hr>
+<!--About Section-->
+<section id="about">
+    <h2>About Me</h2>
+    <h3><p><b>An about me statement is a short description of one’s background, achievements, and personal interests.</b></p></h3>
+    <P>I am a highly organized and detail-oriented professional with a passion for numbers. My expertise lies in financial analysis and accounting, and I am committed to helping my clients make informed financial decisions.</P>
+    <img src="images/01.png" alt="Sorry" width="250">
+</section>
+<hr>
+<!--Project Section With Table-->
+<section id="Projects">
+    <h2>My projects</h2>
+    <table border="1">
+        <tr>
+            <th>Project Name</th>
+            <th>Tools Used</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>profile card</td>
+            <td>HTML</td>
+            <td>✅ complete</td>
+        </tr>
+        <tr>
+            <td>protfolio</td>
+            <td>HTML</td>
+            <td>🟡 In Progress</td>
+        </tr>
+    </table>
+</section>
+<hr>
+<!--Embedded Video & Audio-->
+<section>
+    <h2>Watch My Intro</h2>
+    <iframe width="1400" height="500"
+    src="https://maruf320101.blogspot.com/" frameborder="0" allowfullscreen ></iframe>
+</section>
+<hr>
+<!--Resume link-->
+<p style="text-align: center;"><a href="PDF/UI_Web_Dev_Roadmap.pdf" download>Download My Resume (pdf)</a></p>
+<hr>
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" required><br><br>
+  
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" required><br><br>
+  
+      <label for="subject">Subject:</label><br>
+      <input type="text" id="subject"><br><br>
+  
+      <label for="message">Message:</label><br>
+      <textarea id="message" rows="4" cols="30"></textarea><br><br>
+  
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <hr>
+  <footer>
+    <p>© 2025 Maruf. All rights reserved.</p>
+    <a href="https://github.com/maruf320101" target="_blank">GitHub</a>
+  </footer>
+  
+</body>
+</html>

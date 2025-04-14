@@ -1,0 +1,43 @@
+a {
+   font-size: 18px; 
+}
+
+
+h3 {
+    color: green;
+}
+
+.button_1{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 36px;
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button_1:hover{
+    opacity: 0.8;
+}
+.button_1:active{
+    opacity: 0.5;
+}
+
+
+.button_2{
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 36px;
+    width: 150px;
+    border-radius: 20px;
+    margin-right: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button_2:hover{
+    opacity: 0.8;
+}
+.button_2:active{
+    opacity: 0.5;
+}
