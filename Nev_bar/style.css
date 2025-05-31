@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.nev_bar{
+    height: 50px;
+    background-color: black;
+    padding-top: 20px;
+}
+
+#logo{
+    color: #f08804;
+}
+
+button{
+    background-color: #f08804;
+}
+
+a{
+    margin-right: 180px;
+}
