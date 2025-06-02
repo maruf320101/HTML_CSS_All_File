@@ -1,0 +1,46 @@
+.container{
+    border: 3px solid black;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    /*flex-wrap: nowrap;*/
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap-reverse;*/
+    
+    /*flex-flow: row wrap;*/
+    /*flex-flow: column wrap;*/
+    
+}
+
+.item1{
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.item2{
+    background-color: rgb(31, 221, 85);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.item3{
+    background-color: rgb(7, 119, 168);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.item4{
+    background-color: rgb(197, 231, 48);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+
+}
